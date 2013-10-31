@@ -88,7 +88,7 @@ can be downloaded by the build pack (see the URIs in `compile`).
     # Download PHP if necessary.
     if [ ! -f $php_archive_name ]
     then
-        curl -Lo $php_archive_name http://us1.php.net/get/php-5.3.27.tar.bz2/from/www.php.net/mirror
+        curl -Lo $php_archive_name http://us1.php.net/get/php-5.4.7.tar.bz2/from/www.php.net/mirror
     fi
 
     # Clean and extract PHP.
